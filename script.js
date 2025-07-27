@@ -398,7 +398,7 @@ const myObject = {
 
 //Switch Statement
 
-let weather = "Rainy";
+//   let weather = "Rainy";
 
 // possible cases
 //cloudy
@@ -406,166 +406,166 @@ let weather = "Rainy";
 //windy
 //sunny
 
-switch (weather){
-    case "cloudy":
-    console.log("It might be cold, take your jacket with you.");
-    break;
+// switch (weather){
+//     case "cloudy":
+//     console.log("It might be cold, take your jacket with you.");
+//     break;
 
-    case "rainy":
-    console.log("You need a rain coat.");
-    break;
+//     case "rainy":
+//     console.log("You need a rain coat.");
+//     break;
     
-    case "windy":
-    console.log("It is going to be windy");
+//     case "windy":
+//     console.log("It is going to be windy");
 
-    case "sunny":
-        console.log("It is going to be a hot day.");
-        break;
-    default:
-        console.log("Just a normal day!");
+//     case "sunny":
+//         console.log("It is going to be a hot day.");
+//         break;
+//     default:
+//         console.log("Just a normal day!");
 
-}
+// }
 
-let day = "saturday";
-//monday
-//tuesday
-// wednesday
-// thursday
-// friday
-// saturday
-// sunday
+// let day = "saturday";
+// //monday
+// //tuesday
+// // wednesday
+// // thursday
+// // friday
+// // saturday
+// // sunday
 
-switch (day){
-    case "monday":
-        console.log("Today is" + day.toUpperCase());
-        break;
-    case "tuesday":
-        console.log("Today is" +day.toUpperCase());
-        break;
-    case "wednesday":
-        console.log("Today is" + day.toUpperCase());
-        break;
-    case "thursday":
-        console.log("Today is" + day.toUpperCase());
-        break;
-    case "friday":
-        console.log("Today is" + day.toUpperCase());
-        break;  
-    default:
-        console.log("input a valid day of the week");  
-}
+// switch (day){
+//     case "monday":
+//         console.log("Today is" + day.toUpperCase());
+//         break;
+//     case "tuesday":
+//         console.log("Today is" +day.toUpperCase());
+//         break;
+//     case "wednesday":
+//         console.log("Today is" + day.toUpperCase());
+//         break;
+//     case "thursday":
+//         console.log("Today is" + day.toUpperCase());
+//         break;
+//     case "friday":
+//         console.log("Today is" + day.toUpperCase());
+//         break;  
+//     default:
+//         console.log("input a valid day of the week");  
+// }
 
-// switch an equivalent to if else statement 
-//Tenary
-// let isRaining = false;
-// isRaining ? console.log("It is raining") : console.log("It is NOT raining");
-//num > 0 
-//?console.log("Number is a positive number")
-// ?num === 0
-// ? console.log("Number is zero");
-// ?num = 0 
-// 
-
-
-
-
- // ?console.log("Number is a negative ")
-// Write a program which tells the number of days in a month.
-//  Enter a month: January
-//   January has 31 days.
-
-//   Enter a month: JANUARY
-//   January has 31 day
-
-//   Enter a month: February
-//   February has 28 days.
-
-//   Enter a month: FEbruary
-//   February has 28 days.
-// Write a program which tells the number of days in a month, now consider leap year.
-
-for(let x = 0; x = 100; x++){
-    console.log(x);
-}
-
-// print out number 1-5 with the console.log() function
-for (let i = 1; i<6; i++){
-  console.log(`Number: ${i}`);
-}
-//I'm actually very lost right now i will just continue from where i met the class
-
-
-//Array
-let fruit1 = "apple";
-let fruit2 = "banana";
-let fruit3 = "orange";
-console.log(fruit2);
-
-let fruit = ["apple", "banana", "orange", "grape"];
+// // switch an equivalent to if else statement 
+// //Tenary
+// // let isRaining = false;
+// // isRaining ? console.log("It is raining") : console.log("It is NOT raining");
+// //num > 0 
+// //?console.log("Number is a positive number")
+// // ?num === 0
+// // ? console.log("Number is zero");
+// // ?num = 0 
+// // 
 
 
 
 
-console.log(fruit);
-console.log(fruit[0]);
-console.log(fruit[1]);
-console.log(fruit[2]);
-console.log(fruit[3]);
+//  // ?console.log("Number is a negative ")
+// // Write a program which tells the number of days in a month.
+// //  Enter a month: January
+// //   January has 31 days.
 
-//console.log("N")
-const numbers = [1, 2, 3, 4, 5]
+// //   Enter a month: JANUARY
+// //   January has 31 day
 
-function sumOfArray(array) {
-    for(let i = 0; i <= array.length-1; i++){
-      sum = sum + array[i];
-    }
-    return sum;
-} // if this function is called before it like on any line before it is even named, it is going to return, unlike the rest of the types of the functions like arrow functions, and the likes.
-console.log(sumOfArray(numbers));// this will give 15 which is the result of adding up the values in the array named "numbers"
+// //   Enter a month: February
+// //   February has 28 days.
 
-const daysOfTheweek = [1, 2, 3, 4, 5, 6, 7]
-console.log(sumOfArray(daysOfTheweek)); 
+// //   Enter a month: FEbruary
+// //   February has 28 days.
+// // Write a program which tells the number of days in a month, now consider leap year.
 
-// function with parameters
-function printfullName (firstName, lastName, age){
-    let fullName = `I am ${lastName} ${firstName} and I am ${age} years old`
-    return fullName; // in this function, if the age is not provided for example, the default will be printed instead. e.g printfullName(firstName, lastName, age= 20)l here, 20 will be printed instead if the value of age is not specified
-};
+// for(let x = 0; x = 100; x++){
+//     console.log(x);
+// }
 
-function greetUser (name = "User"){
-    console.log("Hello, " + name + "Welcome to today's class");
-}
-greetUser("Tope"); // here Tope will be printed since it has been specified, ad it been it wasn't specified, User will be printed instead
-
-function calcBirthAge (birthYear, currentYear = 2025 ){
-    let age = currentYear - birthYear;
-    return age;
-}
-console.log(calcBirthAge(2000));
-
-//Scope and hoisting
-// we  have global scope and local scope
-
-const sum = 90 + 70;
-console.log(sum);// global scope, it can be accessed anywhere in the script
-
-function showGlobal () {
-    const globalSum = 90 + 20;// this has a local scope
-    console.log(globalSum);
-}
+// // print out number 1-5 with the console.log() function
+// for (let i = 1; i<6; i++){
+//   console.log(`Number: ${i}`);
+// }
+// //I'm actually very lost right now i will just continue from where i met the class
 
 
-//Example
-// Greet based on time
-function greetUser (name, hr){
-   if(hr >= 6){
-     return `Good morning ${name}`
-   } else if (hr = 6){
-     return `Good afternoon ${time}`
-   } else {
+// //Array
+// let fruit1 = "apple";
+// let fruit2 = "banana";
+// let fruit3 = "orange";
+// console.log(fruit2);
 
-   }
-};
-greetUser("Karl", 2);
+// let fruit = ["apple", "banana", "orange", "grape"];
+
+
+
+
+// console.log(fruit);
+// console.log(fruit[0]);
+// console.log(fruit[1]);
+// console.log(fruit[2]);
+// console.log(fruit[3]);
+
+// //console.log("N")
+// const numbers = [1, 2, 3, 4, 5]
+
+// function sumOfArray(array) {
+//     for(let i = 0; i <= array.length-1; i++){
+//       sum = sum + array[i];
+//     }
+//     return sum;
+// } // if this function is called before it like on any line before it is even named, it is going to return, unlike the rest of the types of the functions like arrow functions, and the likes.
+// console.log(sumOfArray(numbers));// this will give 15 which is the result of adding up the values in the array named "numbers"
+
+// const daysOfTheweek = [1, 2, 3, 4, 5, 6, 7]
+// console.log(sumOfArray(daysOfTheweek)); 
+
+// // function with parameters
+// function printfullName (firstName, lastName, age){
+//     let fullName = `I am ${lastName} ${firstName} and I am ${age} years old`
+//     return fullName; // in this function, if the age is not provided for example, the default will be printed instead. e.g printfullName(firstName, lastName, age= 20)l here, 20 will be printed instead if the value of age is not specified
+// };
+
+// function greetUser (name = "User"){
+//     console.log("Hello, " + name + "Welcome to today's class");
+// }
+// greetUser("Tope"); // here Tope will be printed since it has been specified, ad it been it wasn't specified, User will be printed instead
+
+// function calcBirthAge (birthYear, currentYear = 2025 ){
+//     let age = currentYear - birthYear;
+//     return age;
+// }
+// console.log(calcBirthAge(2000));
+
+// //Scope and hoisting
+// // we  have global scope and local scope
+
+// const sum = 90 + 70;
+// console.log(sum);// global scope, it can be accessed anywhere in the script
+
+// function showGlobal () {
+//     const globalSum = 90 + 20;// this has a local scope
+//     console.log(globalSum);
+// }
+
+
+// //Example
+// // Greet based on time
+// function greetUser (name, hr){
+//    if(hr >= 6){
+//      return `Good morning ${name}`
+//    } else if (hr = 6){
+//      return `Good afternoon ${time}`
+//    } else {
+
+//    }
+// };
+// greetUser("Karl", 2);
  
-//closure
+// //closure
