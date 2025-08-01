@@ -1,10 +1,10 @@
-    // console.log('my name is sasuke');
-    
-    // console.log('Temitope is my Friend');
-    // alert('How was class today?');
-    // console.log(5 ** 5);
+// console.log('my name is sasuke');
 
-    // values and variables
+// console.log('Temitope is my Friend');
+// alert('How was class today?');
+// console.log(5 ** 5);
+
+// values and variables
 //     console.log('Adams'); // string "adam", "55"
 //     console.log(55);         num 55
 //     console.log(55 - 20);    
@@ -192,7 +192,7 @@ const myObject = {
 //  //NOT
 
 
-//  //Uneray operator
+//  //Unerary operator
 //  // ++ increment
 //  // post increment & pre increment
 //  let countInc = 1; 
@@ -426,7 +426,7 @@ const myObject = {
 
 // }
 
-// let day = "saturday";
+// let day = "friday";
 // //monday
 // //tuesday
 // // wednesday
@@ -437,39 +437,70 @@ const myObject = {
 
 // switch (day){
 //     case "monday":
-//         console.log("Today is" + day.toUpperCase());
+//         console.log("Today is " + day.toUpperCase());
 //         break;
 //     case "tuesday":
-//         console.log("Today is" +day.toUpperCase());
+//         console.log("Today is " +day.toUpperCase());
 //         break;
 //     case "wednesday":
-//         console.log("Today is" + day.toUpperCase());
+//         console.log("Today is " + day.toUpperCase());
 //         break;
 //     case "thursday":
-//         console.log("Today is" + day.toUpperCase());
+//         console.log("Today is " + day.toUpperCase());
 //         break;
 //     case "friday":
-//         console.log("Today is" + day.toUpperCase());
+//         console.log("Today is " + day.toUpperCase());
 //         break;  
 //     default:
 //         console.log("input a valid day of the week");  
 // }
+// let num = 8
+// // positive
+// // negative
+// //zero
 
+// switch (true){
+//     case num > 0:
+//     console.log("Number is a positive number");
+//     break;
+
+//     case num === 0:
+//     console.log("Number is zero");
+//     break;
+
+//     case num < 0:
+//     console.log("Number is a negative number");
+//     break;
+
+//     default:
+//         console.log("Please input a valid number!");
+// }
+//  == equivalent
+// if (num > 0){
+//     console.log("Number is a positive number");
+// }  else if (num === 0) {
+//    console.log("Number is zero");   
+// }  else if (num < 0){
+//     console.log("Number is a negative number");
+// } else {
+//     console.log("Please input a valid number!");
+// }
 // // switch an equivalent to if else statement 
+
+
 // //Tenary
-// // let isRaining = false;
-// // isRaining ? console.log("It is raining") : console.log("It is NOT raining");
+
+// let isRaining = false;
+// isRaining ? console.log("It is raining") : console.log("It is NOT raining");
+
 // //num > 0 
 // //?console.log("Number is a positive number")
 // // ?num === 0
 // // ? console.log("Number is zero");
 // // ?num = 0 
-// // 
-
-
-
-
 //  // ?console.log("Number is a negative ")
+
+
 // // Write a program which tells the number of days in a month.
 // //  Enter a month: January
 // //   January has 31 days.
@@ -484,6 +515,23 @@ const myObject = {
 // //   February has 28 days.
 // // Write a program which tells the number of days in a month, now consider leap year.
 
+// loop
+// print out number 0 - 100 with the console.log() function 
+// console.log(1);
+// console.log(2);
+// console.log(3);
+// console.log(4);
+// console.log(5);
+// to do this, instead of printing it one by one, we can use a loop instead
+// in a for loop, we have
+// initialization
+// condition
+// increment / decrement
+//increasing 
+//  for (let i= 0; i <= 100; i++){
+//     console.log(i);
+//  }
+
 // for(let x = 0; x = 100; x++){
 //     console.log(x);
 // }
@@ -492,6 +540,32 @@ const myObject = {
 // for (let i = 1; i<6; i++){
 //   console.log(`Number: ${i}`);
 // }
+
+// count down from 10 - 0
+// for(let j = 10; j >= 0; j--){
+//     console.log(j);
+// }
+
+// for (let i = 0; i <= 5; i = i + 2) {
+//     console.log(`Number:${i}`);
+//     console.log("Hello a");
+// }
+
+// while loop
+// incresing
+// for (let i = 0; i <= 10; i++) {
+// console.log(i);
+// }
+
+// let i = 0 ;
+// while (i <= 10){
+// console.log(i, "Helloooo!");
+// i++
+// }
+
+
+
+
 // //I'm actually very lost right now i will just continue from where i met the class
 
 
